@@ -16,8 +16,6 @@ const persistConfig = {
   ],
 }
 
-// process.env.REACT_APP_SECRET_KEY - this wouldn't work :( 
-
 const bigReducer = combineReducers({
   job: jobReducer,
   index: favouriteReducer
